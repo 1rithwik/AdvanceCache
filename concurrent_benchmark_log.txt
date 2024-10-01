@@ -1,0 +1,36 @@
+Sep 30, 2024 12:47:42 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark setupDatabase
+INFO: Database setup completed successfully.
+Sep 30, 2024 12:47:42 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark setupCaches
+INFO: Caches setup completed successfully.
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark analyzeAndLogResults
+INFO: Performance Analysis:
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logPerformance
+INFO: Database Insert: 347368.54 ms
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logPerformance
+INFO: Database Retrieve: 16505.30 ms
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logPerformance
+INFO: L1 Cache Insert: 32.97 ms
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logPerformance
+INFO: L1 Cache Retrieve: 17.40 ms
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logPerformance
+INFO: L2 Cache Insert: 158.61 ms
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logPerformance
+INFO: L2 Cache Retrieve: 47.66 ms
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logPerformance
+INFO: Multilevel Cache Retrieve: 1839.51 ms
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark analyzeAndLogResults
+INFO: 
+Performance Improvements:
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logImprovement
+INFO: L1 Cache Insert vs Database Retrieve: 99.80% faster
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logImprovement
+INFO: L1 Cache Retrieve vs Database Retrieve: 99.89% faster
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logImprovement
+INFO: L2 Cache Insert vs Database Retrieve: 99.04% faster
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logImprovement
+INFO: L2 Cache Retrieve vs Database Retrieve: 99.71% faster
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark logImprovement
+INFO: Multilevel Cache Retrieve vs Database Retrieve: 88.86% faster
+Sep 30, 2024 12:53:48 PM com.example.AdvancedConcurrentDatabaseCachingBenchmark identifyBottlenecks
+WARNING: 
+Bottleneck: Database Insert is the slowest operation.
